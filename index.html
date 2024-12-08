@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>My Personal Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2 mb-2 md:mb-0">
+                <img src="piclogo.jpg" alt="Logo" class="h-8 w-8 rounded">
+                <span class="text-xl font-bold">Site Logo</span>
+            </div>
+
+            <!-- Welcome Text -->
+            <div class="text-center md:text-left mb-2 md:mb-0">
+                <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 drop-shadow-lg">
+                    Welcome to My Personal Website
+                </h1>
+            </div>
+
+            <!-- Navbar Links -->
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:underline">Home</a></li>
+                <li><a href="about.html" class="hover:underline">About</a></li>
+                <li><a href="gallery.html" class="hover:underline">Gallery</a></li>
+                <li><a href="calculator.html" class="hover:underline">Calculator</a></li>
+                <li><a href="registration.html" class="hover:underline">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white text-center py-20">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Capturing Moments, One Click at a Time</h1>
+            <p class="mb-6">Discover stunning photography from my lens. Explore a collection of landscapes, portraits, and artistic shots.</p>
+            <a href="#portfolio" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">My Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow rounded p-4">
+                    <img src="picture.jpg" alt="Portfolio Image 1" class="mb-4">
+                    <p class="font-bold text-center mt-4">Electrical and Network Cabling System for Server</p>
+                    <p>A system focused on building structured cabling for reliable power distribution and seamless data connectivity, ensuring optimal performance, stability, and efficiency in server operations.</p>
+                </div>
+                <div class="bg-white shadow rounded p-4">
+                    <img src="faview.jpg" alt="Portfolio Image 2" class="mb-4">
+                    <p class="font-bold text-center mt-4">Photographer</p>
+                    <p>I enjoy the natural beauty of Unai.</p>
+                </div>
+                <div class="bg-white shadow rounded p-4">
+                    <img src="imgloyar.jpg" alt="Portfolio Image 3" class="mb-4">
+                    <p class="font-bold text-center mt-4">Beauty Captured in Time</p>
+                    <p>A moment of beauty captured in time. Combining charm, elegance, and expression that radiates true grace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>Loyar Agustina Purba Sigulangbatu</p>
+    </footer>
+</body>
+</html>
